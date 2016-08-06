@@ -211,78 +211,44 @@ header{
 nav{
 	margin: 0 0 0 575px;
 }
-
-header-1{
-	position: fixed;
-	background-color: #4aaaa5;
-	left: 265px;
-	top: 235px;
-	width: 125px;
-	padding: 4px 10px 4px 10px;
-	color: white;
-	font-size: 11px;
-}
-header-2{
-	position: fixed;
-	background-color: #4aaaa5;
-	left: 400px;
-	top: 235px;
-	width: 125px;
-	padding: 4px 10px 4px 10px;
-	color: white;
-	font-size: 11px;
-}
-header-3{
-	position: fixed;
-	background-color: #4aaaa5;
-	left: 265px;
-	top: 370px;
-	width: 125px;
-	padding: 4px 10px 4px 10px;
-	color: white;
-	font-size: 11px;
-}
-header-4{
-	position: fixed;
-	background-color: #4aaaa5;
-	left: 400px;
-	top: 370px;
-	width: 125px;
-	padding: 4px 10px 4px 10px;
-	color: white;
-	font-size: 11px;
-}
-header-5{
-	position: fixed;
-	background-color: #4aaaa5;
-	left: 265px;
-	top: 502px;
-	width: 125px;
-	padding: 4px 10px 4px 10px;
-	color: white;
-	font-size: 11px;
-}
 image-1{
-	float: left;
-	width: 100%;
-	
+	position: fixed;
+	margin: 0 0 0 5px;	
+
 }
 image-2{
-	float: left;
-	widows: 100%;
+	position: fixed;
+	margin: 0 0 0 140px;
 
 }
 image-3{
-	float: left;
-
+	position: fixed;
+	margin: 135px 0 0 5px;
 }
 image-4{
-	float: left;
+	position: fixed;
+	margin: 135px 0 0 140px;
 
 }
 image-5{
-	float: left;
+	position: fixed;
+	margin:270px 0 0 5px;
 
+}
+header-1{
+	display: none;
+}
+header-2{
+	display: none;
+}
+header-3{
+	display: none;
+}
+header-4{
+	display: none;
+}
+header-5{
+	display: none;
 }
 }
 @media screen and (max-width: 768px) {
